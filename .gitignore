@@ -1,3 +1,9 @@
-## Text files
+# secrets - never commit real tokens
 *.txt
-*.js
+.env
+.env.local
+Bot-token.txt
+
+# deps / build
+node_modules/
+dist/
